@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*Url nos pide que la imagen que queremos poner, y colocamos la ruta de esa imagen dentro del parentesis*/
+    background-image: url(Camp\ Nou.jpg);
+    background-size: cover;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h2 {
+    font-size: 25px;
+    color: $color-yellow;
+    margin: 5px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: $color-yellow;
+    margin: 5px;
+  }
+  
+  h4 {
+    font-size: 15px;
+    color: $color-yellow;
+    margin: 5px;
+  }
+  
+  p {
+    text-align: center;
+    color: $color-yellow;
+    height: 20px;
+  }
